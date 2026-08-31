@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="./example.html" method="post">
+        <p>Form for Burger Party</p>
+        <label for="Meal">What do you Want to eat</label>
+        <br>
+        <input type="text" id="Meal" name="username" value="Davie" >
+        <br>
+        <br>
+        <!--password-->
+        <label for="password">Enter Password</label>
+        <input id="password" name="password" type="password" >
+
+        <br>
+        <br>
+        <!--Number-->
+        <label for="number-input">Number Input</label>
+        <input id="number-input" type="number" min="1" max="10" name="Number-input" step="1">
+
+        <br>
+        <br>
+        <!--Range-->
+        <label for="volume">Volume</label>
+        <input id="volume" type="range" min="0" max="100" step="1" name="volume">
+
+        <br>
+        <br>
+        <!--Checkbox-->
+        <label for="Tomato">Tomato</label>
+        <input type="checkbox" id="Tomato">
+        <label for="Potato">Potato</label>
+        <input type="checkbox" id="Potato">
+        <label for="Cheese">Cheese</label>
+        <input type="checkbox" id="Cheese">
+        <label for="Bacon">Bacon</label>
+        <input type="checkbox" id="Bacon">
+        
+        <br>
+        <br>
+        <!--Radio-->
+        <p>Sum of 1+1 </p>
+        <input id="two" name="two" value="two" type="radio" >
+        <Label for="two">2</Label>
+        <input id="eleven" name="two" value="eleven" type="radio" >
+        <Label for="eleven">11</Label>
+        <br>
+        <br>
+        <!--Dropdown-->
+        <label for="lunch">Whats for lunch</label>
+        <select id="lunch" name="lunch">
+            <option value="curry">Curry</option>
+            <option value="sandwhich">Sandwhich</option>
+            <option value="pizza">Pizza</option>
+            <option value="salad">Salad</option>
+        </select>
+        <br>
+        <br>
+        <!--textarea-->
+        <label for="blog">area for blog</label>
+        <br>
+        <br>
+        <textarea id="blog" name="blog" rows="5" cols="30"></textarea>
+
+        <input type="submit" value="Sent" >
+        
+
+    </form>
+
+</body>
+</html>
