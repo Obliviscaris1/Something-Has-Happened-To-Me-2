@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    color: royalblue;
+}
+
+#into{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.current-skills{
+    color: darkorchid;
+}
+
+#Skills li{
+    border: 1px solid red;
+    color: turquoise;
+
+}
+
+.goals-by-end{
+    font-weight: bold;
+}
+
+.goals li{
+    border: 1px double darkblue;
+    color: rgb(69, 12, 125);
+}
+
+table {
+    border: 1px dotted blueviolet;
+}
+
+.form{
+    color:rgb(69, 12, 125);
+}

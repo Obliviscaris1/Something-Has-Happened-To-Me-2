@@ -1,0 +1,66 @@
+h1{
+    border: 1px solid lightgreen;
+}
+
+.paragraph{
+    color: teal;
+}
+
+p:hover{
+    color: blue;
+}
+
+.brown{
+    color:brown;
+}
+.font{
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+#capital{
+    text-transform: capitalize;
+}
+
+a:hover[href*='attribute']{
+    color: green;
+}
+
+.bold{
+    font-style: bold ;
+}
+
+.green{
+    color: green;
+    background-color: aqua;
+}
+
+.blue{
+    color: blue;
+}
+
+
+.hello{
+    color: lightsalmon
+}
+
+#damm{
+    color: red;
+}
+
+h1.loners{
+    background-color: cornflowerblue;
+}
+
+.main-list li{
+    color: darkturquoise;
+}
+
+.chaining p{
+    color: yellowgreen;
+}
+
+.lol p{
+    color: turquoise;
+}
