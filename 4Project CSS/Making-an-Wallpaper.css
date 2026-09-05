@@ -1,0 +1,17 @@
+body{
+    background-image: url('/Full Stack/download (1).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350;
+    width: 350;
+}
+
+.Square{
+    width: 10;
+    height: 10;
+    border: 2px solid blue;
+    padding: 20px;
+    margin-right: 1500px;
+    background-color: blue;
+    opacity: .50;
+}
