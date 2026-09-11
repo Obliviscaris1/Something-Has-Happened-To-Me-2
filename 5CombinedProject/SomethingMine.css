@@ -1,0 +1,157 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: white;
+    text-decoration: none;
+}
+
+.header{
+    text-align: center;
+    border: 2px solid black;
+    padding: -69px;
+    color: white;
+    background-color: black;
+}
+
+#header{
+    position: relative;
+    top: -20px;
+}
+
+.home-content{
+    border: 2px solid blue;
+    position: relative;
+    padding: 40px;
+    top: -45px;
+    background-color: blue;
+    opacity: 50%;
+}
+
+.logo{
+    position: relative;
+    height: 75px;
+    top: -152px;
+    margin-left: 30px;
+}
+
+.content a{
+    position: relative;
+    margin: 35px;
+    border: 2px solid blue;
+    padding: 9px;
+    top: -215px;
+    font-size: large;
+    background-color: greenyellow;
+    text-decoration: none;
+}
+
+.content a:hover{
+    background-color: rgb(57, 245, 57);
+}
+
+#content{
+    margin-left: 550px;
+}
+
+.logo2{
+    position: relative;
+    height: 75px;
+    margin-left: 1400px;
+    top: -263px;
+}
+.dropdown{
+    position: relative;
+    top: -250px;
+    border: 2px solid blue;
+    padding: 20px;
+    margin-right: 1200px;
+    padding-bottom: 350px;
+    background-color: rgb(95, 98, 160);
+    
+}
+#selection{
+    margin-left: 12px ;
+    color: aquamarine;
+    background-color: rgb(95, 98, 160);
+}
+
+.dropdown1 {
+    background-color: rgb(98, 98, 230);
+    color: aquamarine;
+}
+
+.dropdown1 option{
+    background-color: rgb(98, 98, 230);
+    color: aquamarine;
+}
+
+#Anime{
+    margin-left: 15px;
+}
+
+.images img, .images2 img{
+    margin: 6px;
+    height: 400px;
+    border: 1px solid blue;
+    padding: 15px;
+}
+.images{
+    position: relative;
+    top: -709px;
+    margin-left: 330px;
+}
+.images img:hover ,.images2 img:hover{
+    background-color: blue;
+}
+
+.images2{
+    position: relative;
+    top: -710px;
+}
+
+.box2{
+    border: 2px solid blue;
+    padding: 90px;
+    position: relative;
+    top: -720px;
+    background-color: blue;
+    opacity: 50%;
+}
+
+.contact p{
+    font-size: large;
+    border: 2px solid blue;
+    margin: 4px;
+    padding: 5px;
+    margin-right: 1150px ;
+    position: relative;
+    top: -895px;
+    font-weight: bolder;
+    color: blue;
+}
+.contact p:hover{
+    background-color: aqua;
+}
+
+.thank{
+    font-size: large;
+    border: 2px solid blue;
+    padding: 5px;
+    margin-right: 1300px ;
+    position: relative;
+    top: -1000px;
+    font-weight: bolder;
+    color: blue;
+    left: 650px;
+}
+.thank:hover{
+    background-color: aqua;
+}
+
+.ending img{
+    height: 170px;
+    position: relative;
+    top: -1107px;
+    left: 1320px;
+}
+
